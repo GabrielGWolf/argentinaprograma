@@ -1,0 +1,10 @@
+1. En el ejercicio 4 se pedía calcular el promedio de 3 números. Supongamos que ahora nos llegan otros tres datos y queremos calcular el promedio de los 6 números. ¿Qué modificaciones debemos hacerl al programa?
+
+
+2. Ya sabemos, gracias al ejercicio 3, convertir de Fahrenheit a Celsius. ¿Cómo hacemos la conversión de Celsius a Fahrenheit?
+
+3. Continuando con lo anterior, tenemos una tabla de las temperaturas medias por mes de los doce meses en grados Fahrenheit; cómo hacemos para calcular el promedio anual en Celsius?
+
+4. Queremos representar un equipo de fútbol 5. Para ello necesitamos tener el nombre de cada jugader, su posición (arco, defensa, mediocampo, adelante) y su edad. ¿Cómo representamos cada jugador? ¿Cómo representamos un equipo? ¿Cómo representamos los 8 equipos que juegan el torneo?
+
+5. ¿Hay que hacer algún cambio para representar un equipo de fútbol 7?
