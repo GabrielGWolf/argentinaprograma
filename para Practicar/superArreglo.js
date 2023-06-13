@@ -1,8 +1,8 @@
-let superArreglo = [["Carla", "Pedro", "Daiana", "Ivan", "Ivette", "Mario", "Vanesa"], ["Gomez","Gonzales","Hernandez","Suarez","Gimenez","Gomez","Mendez"], [true, false, true, true, true, false, true]]
+let superArreglo = [["Carla", "Pedro", "Daiana", "Ivan", "Ivette", "Mario", "Vanesa"], ["Gomez","Gonzales","Hernandez","Suarez","Gimenez","Gomez","Mendez"], [true, false, true, true, true, false, true]];
 
-console.log(superArreglo)
+console.log(superArreglo);
 
-console.log("-------------- ejercicio 1 y 2 ---------------------------------------------")
+console.log("-------------- ejercicio 1 y 2 ---------------------------------------------");
 console.log("2. Nombres que terminan con 'a':");
 for (let i = 0; i < superArreglo[0].length; i++) {
     let nombre = superArreglo[0][i];
@@ -10,7 +10,7 @@ for (let i = 0; i < superArreglo[0].length; i++) {
       console.log(nombre);
     }
   }
-console.log("--------------- ejercicios 3 y 4--------------------------------------------")
+console.log("--------------- ejercicios 3 y 4--------------------------------------------");
 
 console.log("Apellidos que empiezan con 'G':");
 for (let i = 0; i < superArreglo[1].length; i++) {
@@ -28,7 +28,7 @@ for (let i = 0; i < superArreglo[1].length; i++) {
     console.log(nombre + " " + apellido);
   }
 }
-console.log("--------------- ejercicios 5 y 6 --------------------------------------------")
+console.log("--------------- ejercicios 5 y 6 --------------------------------------------");
 
 console.log("Personas con invitación validada (inicial del nombre y apellido):");
 for (let i = 0; i < superArreglo[2].length; i++) {
@@ -52,4 +52,4 @@ for (let i = 0; i < superArreglo[0].length; i++) {
       console.log(nombre.charAt(0) + ". " + apellido + " Invitación 'true'");
     }
   }
-  console.log("----------------------- fin ------------------------------------")
+  console.log("----------------------- fin ------------------------------------");
