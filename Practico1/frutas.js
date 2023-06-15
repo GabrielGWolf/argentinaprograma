@@ -10,7 +10,6 @@ frutas.push("Uva");
 console.log(frutas)
 let ultima = frutas.pop();
 console.log("la ultima fruta agregada fue " + ultima);
-let saturfs = frutas.reverse();
-let primera = saturfs.pop();
+let primera = (frutas.reverse()).pop();
 console.log("la primera fruta agregada fue " + primera);
 console.log(frutas);
