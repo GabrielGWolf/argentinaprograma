@@ -13,6 +13,7 @@ for (let i = 0; i < personas.length; i++) {
         permitidos.push(nombre);
     }
 }
+
 //imprimir lista de admitidos y lista de rechazados
 console.log("la lista de invitados admitidos es: ")
 for(let i = 0; i <permitidos.length; i++) {
@@ -23,6 +24,7 @@ for (let i = 0; i < rechazados.length; i++) {
   console.log(rechazados[i]);
 }
 
+//imprimir lista ordenada de admitidos y rechazados
 permitidos.sort()
 console.log("la lista ordenada de invitados admitidos es: ")
 for(let i = 0; i <permitidos.length; i++) {
