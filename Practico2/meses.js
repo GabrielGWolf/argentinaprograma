@@ -18,10 +18,10 @@ let meses = {1: 'enero',
 let mes = meses[numero]
 var cantidadDeDias = 0
 if (numero === 2) {
-    var cantidadDeDias = 28; // febrero tiene siempre 28 días
+    cantidadDeDias = 28; // febrero tiene siempre 28 días
     } else if (numero === 4 || numero === 6 || numero === 9 || numero === 11) {
-    var cantidadDeDias = 30; 
+    cantidadDeDias = 30; 
     } else {
-    var cantidadDeDias = 31; 
+    cantidadDeDias = 31; 
     }
     console.log("La cantidad de días del mes de %s es %i", meses[numero], cantidadDeDias)
