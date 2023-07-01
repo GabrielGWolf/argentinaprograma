@@ -27,14 +27,14 @@ let jugadaUsuario = obtenerJugadaUsusario()
 
 function determinarGanador(jugadaComputadora, jugadaUsuario) {
     if (
-      (jugadaComputadora === "piedra" && jugadaUsuario === "tijeras") ||
-      (jugadaComputadora === "tijeras" && jugadaUsuario === "papel") ||
+      (jugadaComputadora === "piedra" && jugadaUsuario === "tijera") ||
+      (jugadaComputadora === "tijera" && jugadaUsuario === "papel") ||
       (jugadaComputadora === "papel" && jugadaUsuario === "piedra")
     ) {
       return "Gana la computadora";
     } else if (
-      (jugadaUsuario === "piedra" && jugadaComputadora === "tijeras") ||
-      (jugadaUsuario === "tijeras" && jugadaComputadora === "papel") ||
+      (jugadaUsuario === "piedra" && jugadaComputadora === "tijera") ||
+      (jugadaUsuario === "tijera" && jugadaComputadora === "papel") ||
       (jugadaUsuario === "papel" && jugadaComputadora === "piedra")
     ) {
       return "Gana el usuario";
