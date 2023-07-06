@@ -9,8 +9,8 @@ let jugadaComputadora = obtenerJugadaComputadora()
 
 function obtenerJugadaUsusario() {
     let jugada = readlineSync.question("Por favor, ingrese: piedra, papel o tijera: ")
-    jugada.toLowerCase()
-    jugada.trim()
+    jugada = jugada.toLowerCase()
+    jugada = jugada.trim()
     if (!(jugada === "piedra" || jugada === "papel" || jugada === "tijera")) { 
         while (!(jugada === "piedra" || jugada === "papel" || jugada === "tijera")) { 
             jugada = readlineSync.question("La opcion ingresada no es correcta." +  
