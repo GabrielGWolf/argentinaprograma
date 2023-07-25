@@ -1,0 +1,5 @@
+menos temperatura minima registrada historica en una ciudad de cordoba
+entre 1980 y 2016 - temperatura mas alta de ese año
+(en un arreglo)
+para cada año entre 1980 y 2016
+mes del año en el que hubo mayor cantidad de precipitaciones
